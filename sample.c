@@ -2,14 +2,12 @@
 #include<conio.h>
 int main()
 {
-char c;
-int islowercasevowel,isuppercasevowel;
-printf("%c",&c);
-islowercasevowel=(c=='a'//c=='e'//c=='i'//c=='o'//c=='u');
-isuppercasevowel=(c=='A'//c=='E'//c=='I'//c=='O'//c=='U');
-if(islowercasevowel//isuppercasevowel)
-printf("%c is a vowel.",c);
+char ch;
+printf("enter the character");
+ scanf("%c",&ch);
+if(ch=='a'||ch=='e'||ch=='i'//ch=='o'//ch=='u'||if=(ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+printf("%c is a vowel.",ch);
 else
-printf("%c is a consonant.",c);
+printf("%c is a consonant.",ch);
 return 0;
    }
